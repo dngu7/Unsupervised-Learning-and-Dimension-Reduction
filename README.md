@@ -3,7 +3,7 @@ Clustering Techniques
 
 Link: https://github.com/dngu7/Unsupervised-Learning-and-Dimension-Reduction
 
-# Setup
+### Setup
 Ensure you have python3.6 and following packages installed.
 tensorflow >=1.12.0
 numpy >= 1.16.1
@@ -13,7 +13,7 @@ matplotlib >=3.0.2
 
 Pull GitHub into local 
 
-# Running the clustering algorithms and dimensionality reduction
+### Running the clustering algorithms and dimensionality reduction
 
 argument 1: python
 argument 2: unsupervisedlearning.py
@@ -26,9 +26,9 @@ Example 1: Expectation Maximisation clustering on digit dataset with ICA reducti
 - python unsupervisedlearning.py pima 2 em ica
 
 
-## Running the neural network with dimensionality reduction and clustering
+### Running the neural network with dimensionality reduction and clustering
 
-# Data
+#### Data
 Download the MNIST and CIFAR-100 datasets and place into their respective data folders
 MNIST: http://yann.lecun.com/exdb/mnist/
 CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
