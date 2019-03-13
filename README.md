@@ -23,10 +23,10 @@ argument 5: [clustermode] ={"kmeans", "em"}
 argument 5: [reductionmode] ={"None", "pca","ica,"random","NMF"}
 
 Example 1: Expectation Maximisation clustering on digit dataset with ICA reduction
->>> python unsupervisedlearning.py pima 2 em ica
+- python unsupervisedlearning.py pima 2 em ica
 
 
-# Running the neural network with dimensionality reduction and clustering
+## Running the neural network with dimensionality reduction and clustering
 
 # Data
 Download the MNIST and CIFAR-100 datasets and place into their respective data folders
@@ -42,8 +42,8 @@ argument 4: [data] = {"mnist", "cifar"}
 argument 4: [reduction] = {"pca", "ica", "rp","nmf","kmeans","em"}
 
 Example 1: Neural Network on the MNIST database
->>> python runner.py nn mnist pca
+- python runner.py nn mnist pca
 
 Example 2: Support Vector Machine on the CIFAR database
->>> python runner.py nn cifar ica
+- python runner.py nn cifar ica
 
